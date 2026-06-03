@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_bell"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/cotizarFragment"
+        android:icon="@drawable/ic_file_text"
+        android:title="Cotizar"/>
+
+    <item
+        android:id="@+id/polizasFragment"
+        android:icon="@drawable/ic_shield"
+        android:title="Polizas"/>
+
+    <item
+        android:id="@+id/pagosFragment"
+        android:icon="@drawable/ic_credit_card"
+        android:title="Pagos"/>
+
+</menu>

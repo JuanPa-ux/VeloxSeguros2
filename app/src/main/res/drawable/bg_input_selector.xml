@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- bg_input_selector.xml
+     CORRECCIÓN: selector que activa el borde índigo al enfocar el campo.
+     Usar este drawable como android:background en todos los EditText
+     en lugar de @drawable/bg_input fijo. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true"  android:drawable="@drawable/bg_input_focused"/>
+    <item android:drawable="@drawable/bg_input"/>
+</selector>

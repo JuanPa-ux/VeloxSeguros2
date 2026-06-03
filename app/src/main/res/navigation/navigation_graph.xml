@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.project.veloxseguros2.home.HomeFragment"
+        android:label="Inicio"/>
+
+    <fragment
+        android:id="@+id/cotizarFragment"
+        android:name="com.project.veloxseguros2.cotizar.CotizarFragment"
+        android:label="Cotizar"/>
+
+    <fragment
+        android:id="@+id/polizasFragment"
+        android:name="com.project.veloxseguros2.polizas.PolizasFragment"
+        android:label="Polizas"/>
+
+    <fragment
+        android:id="@+id/pagosFragment"
+        android:name="com.project.veloxseguros2.pagos.PagosFragment"
+        android:label="Pagos"/>
+
+</navigation>

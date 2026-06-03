@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- bottom_nav_color.xml
+     CORRECCIÓN: actualizado de rojo oscuro (#800C1F) a índigo eléctrico
+     para que coincida con la paleta del rediseño. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/colorPrimary"       android:state_checked="true"/>
+    <item android:color="@color/colorTextSecondary"/>
+</selector>

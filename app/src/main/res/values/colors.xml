@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- === VELOX SEGUROS — PALETA MINIMALISTA === -->
+    <!-- Fondo principal: negro profundo -->
+    <color name="colorBackground">#0A0A0A</color>
+    <!-- Superficie de tarjetas: gris muy oscuro -->
+    <color name="colorSurface">#141414</color>
+    <!-- Borde sutil para inputs y divisores -->
+    <color name="colorBorder">#242424</color>
+
+    <!-- Acento principal: índigo eléctrico -->
+    <color name="colorPrimary">#5B5BD6</color>
+    <!-- Acento más claro para hover / texto de link -->
+    <color name="colorPrimaryLight">#7C7CE8</color>
+
+    <!-- Textos -->
+    <color name="colorTextPrimary">#F5F5F5</color>
+    <color name="colorTextSecondary">#888888</color>
+    <color name="colorTextHint">#555555</color>
+
+    <!-- Estados -->
+    <color name="colorSuccess">#22C55E</color>
+    <color name="colorWarning">#F59E0B</color>
+    <color name="colorError">#EF4444</color>
+
+    <!-- Utiles -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
